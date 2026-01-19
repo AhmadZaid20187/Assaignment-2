@@ -208,6 +208,7 @@ hr{
 .second-main{
     background-color: #230E3D;
     padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
 }
 
 .cards-collection{
@@ -215,7 +216,8 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.875rem;
-    padding: 2.5rem 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .cards{
@@ -251,4 +253,50 @@ hr{
     color: white;
     padding-top: 1rem;
     line-height: 1.5rem;
+}
+
+
+/* Future Section */
+.future-section{
+    padding-top: 7.5rem;
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 2rem; */
+    padding-top: 2.5rem;
+}
+
+.video-card{
+    background-color: #250D44;
+    border-radius: 1rem;
+    max-width: 23.75rem;
+}
+
+.video{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.video-text{
+    padding: 1rem;
+}
+
+.future-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.future-description{
+    color: white;
+    padding-top: 1rem;
+}
+
+.time-show{
+    display: flex;
+    align-items: center;
+    color: #00FF88;
+    padding-top: 1rem;
 }
