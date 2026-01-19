@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shered Style */
+
+html{
+    font-size: 16px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 0.75rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background: var(--Linear,
+        linear-gradient(47.64deg,
+        rgba(247, 233, 63, 1),
+        rgba(251, 9, 180, 1),
+        rgba(145, 0, 248, 1)
+       )
+    );
+
+}
+
+/* Header Section */
+
+/* NavBar */
+
+.nav-color{
+    background-color: #1A0B2E;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #1A0B2E;
+}
+
+.nav-logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.nav-logo span{
+    
+    background:
+     var(--Linear,
+        linear-gradient(47.64deg,
+        rgba(247, 233, 63, 1),
+        rgba(251, 9, 180, 1),
+        rgba(145, 0, 248, 1)
+       )
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li{
+    list-style: none;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
