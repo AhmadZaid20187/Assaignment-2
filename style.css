@@ -146,7 +146,7 @@ html{
     box-shadow:0 3px 27px #00FF88;
     position: absolute;
     top: 15rem;
-    left: 35rem;
+    left: 65rem;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
     font-weight: 600;
@@ -315,7 +315,7 @@ hr{
 
 /* Host Section */
 .host-section{
-    padding-top: 7.5rem;
+    padding: 7.5rem 0;
 }
 
 .host-content{
@@ -351,4 +351,44 @@ hr{
     border: 1px solid #533C72;
     border-radius: 100%;
     padding: 0.9rem;
+}
+
+/* Footer Section */
+.footer-section{
+    background: url(./assets/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5rem;
+    flex-direction: column;
+}
+
+.footer-logo{
+    font-size: 5rem;
+}
+
+.footer-social{
+    display: flex;
+    padding-top: 2rem;
+    gap: 2.5rem;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+}
+
+.copy-right{
+    color: #ffffff;
+    padding-top: 2rem;
+}
+
+
+@media screen and (max-width: 576px){
+    
 }
