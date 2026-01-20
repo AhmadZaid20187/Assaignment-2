@@ -60,6 +60,21 @@ html{
 
 }
 
+.btn:hover{
+    box-shadow:0 3px 27px #f6f7f6;
+    transition: all 1s;
+}
+
+.second-bnt:hover{
+    box-shadow:0 3px 27px #00FF88;
+    transition: all 1s;
+}
+
+.new-badge:hover{
+    border: 2px solid white;
+    transition: all 1s;
+}
+
 .max-width{
     max-width: 75%;
     margin: 0 auto;
@@ -131,6 +146,7 @@ html{
     max-height: 100%;
     justify-items: center;
     align-items: center;
+    padding-bottom: 5rem;
 }
 
 .bannar-img{
@@ -146,6 +162,7 @@ html{
 
 .new-badge{
     background-color: #00FF88;
+    border: 1px solid #00FF88;
     border-radius: 1.5rem;
     box-shadow:0 3px 27px #00FF88;
     position: absolute;
