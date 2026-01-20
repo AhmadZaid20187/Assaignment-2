@@ -50,6 +50,7 @@ html{
     border: none;
     border-radius: 1rem;
     color: white;
+    cursor: pointer;
     background: var(--Linear,
         linear-gradient(47.64deg,
         rgba(247, 233, 63, 1),
@@ -146,7 +147,7 @@ html{
     max-height: 100%;
     justify-items: center;
     align-items: center;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
 .bannar-img{
@@ -198,6 +199,7 @@ html{
     border-radius: 1rem;
     padding: 0.6rem 0.75rem;
     display: flex;
+    cursor: pointer;
     align-items: center;
     gap: 0.5rem;
 
