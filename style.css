@@ -435,6 +435,11 @@ hr{
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .cards01, .cards02, .cards03{
+        padding: 2rem;
+        grid-row: auto;
+    }
+
     .video-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
