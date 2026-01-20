@@ -117,6 +117,10 @@ html{
     color: white;
 }
 
+.hamburger-menu{
+    display: none;
+}
+
 /* Bannar Section */
 .bannar{
     background: url(./assets/hero-bg.png);
@@ -359,6 +363,8 @@ hr{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -390,5 +396,44 @@ hr{
 
 
 @media screen and (max-width: 576px){
+    .hamburger{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .new-badge{
+        left: 23rem;
+    }
+
+    .rating-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .video-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .host-content{
+        flex-direction: column;
+    }
+
+    .footer-section{
+        background-size: 576px 510px;
+    }
+
+    .footer-social{
+        
+        flex-wrap: wrap;
+    }
+
+    
     
 }
